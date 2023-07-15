@@ -12,7 +12,7 @@ Our tests focus on two crucial aspects:
 For the first twinning test, we simulate the scenario of the first-ever smart device being twinned in a real-world application and analyse the time required for each stage of the process. All required services for the twinning process were initiated and the duration of each step was logged, providing a comprehensive view of how long each stage takes. This information is analyzed using a Jupyter Notebook to generate a detailed understanding of the overall process. This can be found in the notebook `twin_test_nb.ipynb`.
 
 # Multiple Device Twinning Performance
-The second test investigates the Ditto application's performance when managing a range of 1 to 10 iWatches. This test aims to evaluate the system's scalability and handling of increased complexity. The performance metrics analyzed include CPU usage, RAM usage, network usage, and response time. The analysis can be found in the notebook `multiple_device_twinning_performance.ipynb`.
+The second test investigates the Ditto application's performance when managing a range of 1 to 10 iWatches. This test aims to evaluate the system's scalability and handling of increased complexity. The performance metrics analyzed include CPU usage, RAM usage, network usage, and response time. The analysis can be found in the notebook `performance_nb.ipynb`.
 
 # Data Collection
 The data collected in these tests has been logged and stored in CSV format.
